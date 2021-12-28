@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/satorixrui/static/css/main.bf40aefc.css",
-    "main.js": "/satorixrui/static/js/main.c671d1c2.js",
-    "static/media/nature.jpg": "/satorixrui/static/media/nature.d2cf4d3a01be63c2e919.jpg",
-    "static/media/Settings.png": "/satorixrui/static/media/Settings.ef53dd19b48e0f3bea4a.png",
-    "static/media/User Stories.png": "/satorixrui/static/media/User Stories.42539379bdbc59f1ea48.png",
-    "static/media/Audio.png": "/satorixrui/static/media/Audio.6c277c528db1a214021f.png",
-    "static/media/Feature.png": "/satorixrui/static/media/Feature.00af46954abe0539982a.png",
-    "static/media/Reload.png": "/satorixrui/static/media/Reload.6f67e8f207bfc29f8b72.png",
-    "static/media/Doc.png": "/satorixrui/static/media/Doc.b11978a882b98c6de1af.png",
-    "static/media/CC Active.png": "/satorixrui/static/media/CC Active.ca438a2a12eb91e82be1.png",
-    "static/media/Back.png": "/satorixrui/static/media/Back.fa111d39803f2f23233a.png",
-    "index.html": "/satorixrui/index.html",
-    "main.bf40aefc.css.map": "/satorixrui/static/css/main.bf40aefc.css.map",
-    "main.c671d1c2.js.map": "/satorixrui/static/js/main.c671d1c2.js.map"
+    "main.css": "/satorixr_ui/static/css/main.b80f9d20.css",
+    "main.js": "/satorixr_ui/static/js/main.64b49022.js",
+    "static/media/nature.jpg": "/satorixr_ui/static/media/nature.d2cf4d3a01be63c2e919.jpg",
+    "static/media/Settings.png": "/satorixr_ui/static/media/Settings.ef53dd19b48e0f3bea4a.png",
+    "static/media/User Stories.png": "/satorixr_ui/static/media/User Stories.42539379bdbc59f1ea48.png",
+    "static/media/Audio.png": "/satorixr_ui/static/media/Audio.6c277c528db1a214021f.png",
+    "static/media/Feature.png": "/satorixr_ui/static/media/Feature.00af46954abe0539982a.png",
+    "static/media/Reload.png": "/satorixr_ui/static/media/Reload.6f67e8f207bfc29f8b72.png",
+    "static/media/Doc.png": "/satorixr_ui/static/media/Doc.b11978a882b98c6de1af.png",
+    "static/media/CC Active.png": "/satorixr_ui/static/media/CC Active.ca438a2a12eb91e82be1.png",
+    "static/media/Back.png": "/satorixr_ui/static/media/Back.fa111d39803f2f23233a.png",
+    "index.html": "/satorixr_ui/index.html",
+    "main.b80f9d20.css.map": "/satorixr_ui/static/css/main.b80f9d20.css.map",
+    "main.64b49022.js.map": "/satorixr_ui/static/js/main.64b49022.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf40aefc.css",
-    "static/js/main.c671d1c2.js"
+    "static/css/main.b80f9d20.css",
+    "static/js/main.64b49022.js"
   ]
 }
