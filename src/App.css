@@ -36,3 +36,471 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+.background{
+  position: absolute;
+  float: left;
+  bottom: 0px;
+}
+
+.background img{
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.background .img1{
+  left: 20px;
+  bottom: 20px;
+}
+
+.background .img2{
+  left:40px;
+  bottom: 20px;
+  opacity: 0;
+  z-index: -1;
+}
+
+@keyframes bind {
+
+  0%{
+    left:10px;
+    bottom: 20px;
+    opacity: 0;
+  }
+  100%{
+    left:40px;
+    bottom: 20px;
+    opacity: 1;
+  }
+
+}
+@keyframes bind1 {
+
+  100%{
+    left:10px;
+    bottom: 20px;
+    opacity: 0;
+  }
+
+  0%{
+    left:40px;
+    bottom: 20px;
+    opacity: 1;
+  }
+
+}  
+
+
+.background .img3{
+  right: 120px;
+  bottom: 110px;
+  z-index: -1;
+  opacity: 0;
+}
+
+@keyframes wind {
+
+  0%{
+    right: 120px;
+    bottom: 70px;
+    opacity: 0;
+  }
+  100%{
+    right: 120px;
+    bottom: 110px;
+    opacity: 1;
+  }
+
+}
+
+@keyframes wind1 {
+
+  100%{
+    right: 120px;
+    bottom: 70px;
+    opacity: 0;
+  }
+  
+  0%{
+    right: 120px;
+    bottom: 110px;
+    opacity: 1;
+  }
+
+}
+
+.background1{
+  position: relative;
+}
+.background1 img{
+
+  width: 70px;
+  height: 70px;
+  position: absolute;
+
+}
+.background1 .img6{
+  left: 20px;
+  float: left;
+  top: 30px;
+}
+
+.background1 .img4 {
+  right: 20px;
+  top: 30px;
+}
+.background1 .img5 {
+  
+  right: 100px;
+  top: 30px;
+}
+
+.background1 .img7 {
+  right: 20px; 
+  display: flex;
+  align-items: center;
+}
+
+.background1 .img8 {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11{
+  cursor: pointer;
+}
+
+.background2 img{
+  top: 50%;
+  position: relative;
+  right: 20px;
+}
+.background2 .img7{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+}
+.background2 .img11
+{
+  position: absolute;
+  width: auto 0;
+  height: 70px;
+  right: 150px;
+  border-radius: 50px;
+}
+.background2 .img10
+{
+  position: absolute;
+  width: auto 0;
+  height: 70px;
+  right: 150px;
+  top: 60%;
+  border-radius: 50px;
+}
+.background2 .img9
+{
+  position: absolute;
+  width: auto 0;
+  height: 70px;
+  right: 150px;
+  top: 40%;
+  border-radius: 50px;
+}
+
+.line {
+  width: 61px;
+  border: 0.8px solid #fff;
+  position: absolute;
+  top: 53.6%;
+  right: 90px;
+}
+
+.line1 {
+  width: 101px;
+  border: 0.8px solid #fff;
+  position: absolute;
+  top: 47%;
+  right: 60px;
+  transform: rotate(41.5deg);
+}
+
+.line2 {
+  width: 100px;
+  border: 0.8px solid #fff;
+  position: absolute;
+  top: 60%;
+  right: 61px;
+  transform: rotate(-41.5deg);
+} 
+
+
+ @media screen and (max-height: 768px){
+
+  .background{
+    position: absolute;
+    float: left;
+    bottom: 0px;
+  }
+  
+  .background img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+
+  .background .img1{
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .background .img2{
+    left:40px;
+    bottom: 20px;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  @keyframes bind {
+  
+    0%{
+      left:10px;
+      bottom: 20px;
+      opacity: 0;
+    }
+    100%{
+      left:40px;
+      bottom: 20px;
+      opacity: 1;
+    }
+  
+  }
+  @keyframes bind1 {
+    100%{
+      left:10px;
+      bottom: 20px;
+      opacity: 0;
+    }
+      
+    0%{
+      left:40px;
+      bottom: 20px;
+      opacity: 1;
+    }
+  
+  }  
+
+  .background .img3{
+    right: 80px;
+    bottom: 90px;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  @keyframes wind {
+  
+    0%{
+      right: 80px;
+      bottom: 70px;
+      opacity: 0;
+    }
+    100%{
+      right: 80px;
+      bottom: 90px;
+      opacity: 1;
+    }
+  
+  }
+  
+  @keyframes wind1 {
+  
+    100%{
+      right: 80px;
+      bottom: 70px;
+      opacity: 0;
+    }
+    0%{
+      right: 80px;
+      bottom: 90px;
+      opacity: 1;
+    }
+  
+  }
+   
+  .background2 .img11
+{
+  position: absolute;
+  width: auto 0;
+  height: 50px;
+  right: 150px;
+  border-radius: 50px;
+  top: 52%;
+}
+.background2 .img10
+{
+  position: absolute;
+  height: 50px;
+  right: 150px;
+  top: 62%;
+  border-radius: 50px;
+}
+.background2 .img9
+{
+  position: absolute;
+  height: 50px;
+  right: 150px;
+  top: 42%;
+  border-radius: 50px;
+}
+
+  .background1{
+    position: relative;
+  }
+  .background1 img{
+  
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  
+  }
+  .background1 .img6{
+    left: 20px;
+    float: left;
+    top: 30px;
+  }
+  
+  .background1 .img4 {
+    right: 20px;
+    top: 30px;
+  }
+  .background1 .img5 {
+    
+    right: 80px;
+    top: 30px;
+  }
+  
+  .background1 .img7 {
+    right: 20px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .background1 .img8 {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+  }
+  .background2 img{
+    top: 50%;
+    position: relative;
+    right: 20px;
+  }
+  .background2 .img7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+
+  .background2 .img11
+{
+  position: absolute;
+  right: 110px;
+  border-radius: 50px;
+  top: 51%;
+}
+.background2 .img10
+{
+  position: absolute;
+  right: 110px;
+  top: 61%;
+  border-radius: 50px;
+}
+.background2 .img9
+{
+  position: absolute;
+  right: 110px;
+  top: 41%;
+  border-radius: 50px;
+}
+
+  .line {
+    width: 45px;
+    border: 0.7px solid #fff;
+    position: absolute;
+    top: 54.6%;
+    right: 69px;
+  }
+  
+  .line1 {
+    width: 61.5px;
+    border: 0.7px solid #fff;
+    position: absolute;
+    top: 47.5%;
+    right: 52px;
+    transform: rotate(34.5deg);
+  }
+  
+  .line2 {
+    width: 70px;
+    border: 0.7px solid #fff;
+    position: absolute;
+    top: 61%;
+    right: 45px;
+    transform: rotate(-34.5deg);
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .line, .line1, .line2{
+    display: none;
+  }
+  .background2 .img9, 
+  .background2 .img10,
+  .background2 .img11
+  {
+     right: 90px;
+  }
+}
+
+@media screen and (max-height: 600px){
+
+  .line, .line1, .line2{
+    display: none;
+  }
+
+  .background2 .img7{
+    bottom: 10px;
+  }
+
+  .background2 .img9, 
+  .background2 .img10,
+  .background2 .img11
+  {
+     right: 100px;
+     width: 100px;
+     height: 30px;
+  }
+  .background2 .img9{
+    margin-top: 10px;
+  }
+  .background2 .img10{
+    margin-top: 20px;
+  }
+  .background2 .img11{
+    margin-top: 15px;
+  }
+
+}
+
+
